@@ -1,0 +1,62 @@
+body{
+    background-color: antiquewhite;
+    margin: 0cap;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 2000;
+    color: midnightblue;
+    text-shadow: 3px 3px 3px lightslategray;
+}
+
+.lista{
+    background-color: rgb(225, 215, 215);
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    gap: 50px;
+}
+
+.lista a{
+    color: darkblue;
+}
+
+.lista a:active{
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 10px;
+}
+
+.museos{
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    color: darkcyan;
+    text-shadow: 3px 3px 3px lightblue;
+}
+
+img{
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+a:active{
+    color: green;
+}
